@@ -13,8 +13,12 @@ export default function RoomScreen({ setScreen, screens, setRoomId, roomId }) {
     <>
       <Text style={styles.heading} >Select a Room</Text>
       <TextInput style={styles.input} value={roomId} onChangeText={setRoomId} />
-      <Button title="Join Screen" onPress={() => onCallOrJoin(screens.JOIN)} />
-      <Button title="Call Screen" onPress={() => onCallOrJoin(screens.CALL)} />
+      <View style={styles.buttonContainer} >
+        <Button title="Join Screen" onPress={() => onCallOrJoin(screens.JOIN)} />
+      </View>
+      <View style={styles.buttonContainer} >
+        <Button title="Call Screen" onPress={() => onCallOrJoin(screens.CALL)} />
+      </View>
     </>
   )
 }
@@ -26,8 +30,11 @@ const styles = StyleSheet.create({
     fontSize: 30,
   },
   input: {
-    marginHorizontal: 20,
+    margin: 20,
     height: 40,
     backgroundColor: '#aaa'
   },
+  buttonContainer: {
+    margin: 5
+  }
 });
