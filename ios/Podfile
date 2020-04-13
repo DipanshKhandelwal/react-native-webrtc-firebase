@@ -31,6 +31,8 @@ def add_flipper_pods!(versions = {})
   pod 'FlipperKit/FlipperKitHighlightOverlay', versions['Flipper'], :configuration => 'Debug'
   pod 'FlipperKit/FlipperKitLayoutTextSearchable', versions['Flipper'], :configuration => 'Debug'
   pod 'FlipperKit/FlipperKitNetworkPlugin', versions['Flipper'], :configuration => 'Debug'
+  
+  pod 'react-native-webrtc', :path => '../node_modules/react-native-webrtc'
 end
 
 # Post Install processing for Flipper
@@ -76,8 +78,6 @@ target 'webrtc_firebase' do
   pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
-
-  pod 'react-native-webrtc', :path => '../node_modules/react-native-webrtc'
 
   target 'webrtc_firebaseTests' do
     inherit! :complete

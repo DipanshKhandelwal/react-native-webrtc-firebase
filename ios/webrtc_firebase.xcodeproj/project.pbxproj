@@ -12,15 +12,16 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1DDC9F3B669945D65199F0E3 /* libPods-webrtc_firebase-webrtc_firebaseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9485A11C2EE661BC3467721D /* libPods-webrtc_firebase-webrtc_firebaseTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* webrtc_firebaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* webrtc_firebaseTests.m */; };
-		31CD015F2443E4DD00851FCA /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31CD015E2443E4DD00851FCA /* WebRTC.framework */; };
-		4AA1CA9873431232F0641CC3 /* libPods-webrtc_firebase-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 991C202295B8E0D8498A764A /* libPods-webrtc_firebase-tvOS.a */; };
-		AE8BA89825141AC7707BB8A0 /* libPods-webrtc_firebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD76BDF6F8CE2753602B94DC /* libPods-webrtc_firebase.a */; };
-		CAA36CCE9CDFE927615310D8 /* libPods-webrtc_firebase-webrtc_firebaseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C66DF6A1A481CB654B99747B /* libPods-webrtc_firebase-webrtc_firebaseTests.a */; };
-		F4793D4EB01C92458D4D6B5B /* libPods-webrtc_firebase-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE30017B69E126D1E78CD1C3 /* libPods-webrtc_firebase-tvOSTests.a */; };
+		316112E82444185100D861E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 316112E72444185100D861E6 /* GoogleService-Info.plist */; };
+		31FF4E0624441C8500802836 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FF4E0524441C8500802836 /* WebRTC.framework */; };
+		562DAF72EE981DD0C0A9B6E2 /* libPods-webrtc_firebase-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 738EA4A869C4A3CE24B1C34B /* libPods-webrtc_firebase-tvOS.a */; };
+		631CF23F3043E0E30C68EBC8 /* libPods-webrtc_firebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED9E0AA08028483426F0465 /* libPods-webrtc_firebase.a */; };
+		6CBD977B778FE64DCD3ED35F /* libPods-webrtc_firebase-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 043B0A2EC57846114126A8CD /* libPods-webrtc_firebase-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +39,9 @@
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
 			remoteInfo = "webrtc_firebase-tvOS";
 		};
-		31CD015C2443E49000851FCA /* PBXContainerItemProxy */ = {
+		31FF4E0324441C6700802836 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 31CD01582443E49000851FCA /* RCTWebRTC.xcodeproj */;
+			containerPortal = 31FF4DFF24441C6700802836 /* RCTWebRTC.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 35A2221F1CB493700015FD5C;
 			remoteInfo = RCTWebRTC;
@@ -52,7 +53,7 @@
 		00E356EE1AD99517003FC87E /* webrtc_firebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webrtc_firebaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* webrtc_firebaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webrtc_firebaseTests.m; sourceTree = "<group>"; };
-		133024EB8A7015144251DBF0 /* Pods-webrtc_firebase-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webrtc_firebase-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-webrtc_firebase-tvOSTests/Pods-webrtc_firebase-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		043B0A2EC57846114126A8CD /* libPods-webrtc_firebase-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webrtc_firebase-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* webrtc_firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webrtc_firebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = webrtc_firebase/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = webrtc_firebase/AppDelegate.m; sourceTree = "<group>"; };
@@ -62,21 +63,22 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = webrtc_firebase/main.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* webrtc_firebase-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "webrtc_firebase-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* webrtc_firebase-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "webrtc_firebase-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		31CD01582443E49000851FCA /* RCTWebRTC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebRTC.xcodeproj; path = "../node_modules/react-native-webrtc/ios/RCTWebRTC.xcodeproj"; sourceTree = "<group>"; };
-		31CD015E2443E4DD00851FCA /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = "../node_modules/react-native-webrtc/ios/WebRTC.framework"; sourceTree = "<group>"; };
-		48A13CEA2DD93A49BDF3E6F3 /* Pods-webrtc_firebase-webrtc_firebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webrtc_firebase-webrtc_firebaseTests.release.xcconfig"; path = "Target Support Files/Pods-webrtc_firebase-webrtc_firebaseTests/Pods-webrtc_firebase-webrtc_firebaseTests.release.xcconfig"; sourceTree = "<group>"; };
-		72B297045466059B42EB772B /* Pods-webrtc_firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webrtc_firebase.debug.xcconfig"; path = "Target Support Files/Pods-webrtc_firebase/Pods-webrtc_firebase.debug.xcconfig"; sourceTree = "<group>"; };
-		991C202295B8E0D8498A764A /* libPods-webrtc_firebase-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webrtc_firebase-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A00B432D65769B21E1400CF0 /* Pods-webrtc_firebase-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webrtc_firebase-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-webrtc_firebase-tvOSTests/Pods-webrtc_firebase-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		A17A54765A729A9E5C858ECA /* Pods-webrtc_firebase-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webrtc_firebase-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-webrtc_firebase-tvOS/Pods-webrtc_firebase-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		AD05926D3F88028EDF6FC3EF /* Pods-webrtc_firebase-webrtc_firebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webrtc_firebase-webrtc_firebaseTests.debug.xcconfig"; path = "Target Support Files/Pods-webrtc_firebase-webrtc_firebaseTests/Pods-webrtc_firebase-webrtc_firebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AD76BDF6F8CE2753602B94DC /* libPods-webrtc_firebase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webrtc_firebase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C66DF6A1A481CB654B99747B /* libPods-webrtc_firebase-webrtc_firebaseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webrtc_firebase-webrtc_firebaseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA2E75ACE114CEF24534393A /* Pods-webrtc_firebase-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webrtc_firebase-tvOS.release.xcconfig"; path = "Target Support Files/Pods-webrtc_firebase-tvOS/Pods-webrtc_firebase-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		CE30017B69E126D1E78CD1C3 /* libPods-webrtc_firebase-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webrtc_firebase-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC3B364FDA7244DD6A074E01 /* Pods-webrtc_firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webrtc_firebase.release.xcconfig"; path = "Target Support Files/Pods-webrtc_firebase/Pods-webrtc_firebase.release.xcconfig"; sourceTree = "<group>"; };
+		316112E72444185100D861E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		31FF4DFF24441C6700802836 /* RCTWebRTC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebRTC.xcodeproj; path = "../node_modules/react-native-webrtc/ios/RCTWebRTC.xcodeproj"; sourceTree = "<group>"; };
+		31FF4E0524441C8500802836 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = "../node_modules/react-native-webrtc/ios/WebRTC.framework"; sourceTree = "<group>"; };
+		58CFB3B67CE5E172F81D001F /* Pods-webrtc_firebase-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webrtc_firebase-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-webrtc_firebase-tvOSTests/Pods-webrtc_firebase-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5ED9E0AA08028483426F0465 /* libPods-webrtc_firebase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webrtc_firebase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		738EA4A869C4A3CE24B1C34B /* libPods-webrtc_firebase-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webrtc_firebase-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8821A05BCF1E165C5AC1281D /* Pods-webrtc_firebase-webrtc_firebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webrtc_firebase-webrtc_firebaseTests.release.xcconfig"; path = "Target Support Files/Pods-webrtc_firebase-webrtc_firebaseTests/Pods-webrtc_firebase-webrtc_firebaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		9485A11C2EE661BC3467721D /* libPods-webrtc_firebase-webrtc_firebaseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webrtc_firebase-webrtc_firebaseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8317F42A937AD81071D6F18 /* Pods-webrtc_firebase-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webrtc_firebase-tvOS.release.xcconfig"; path = "Target Support Files/Pods-webrtc_firebase-tvOS/Pods-webrtc_firebase-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		A8F300FB2CDAC4E91991044A /* Pods-webrtc_firebase-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webrtc_firebase-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-webrtc_firebase-tvOSTests/Pods-webrtc_firebase-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD5BE9A69690446B9367E234 /* Pods-webrtc_firebase-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webrtc_firebase-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-webrtc_firebase-tvOS/Pods-webrtc_firebase-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		DD8F63E762963C3EF4B37547 /* Pods-webrtc_firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webrtc_firebase.release.xcconfig"; path = "Target Support Files/Pods-webrtc_firebase/Pods-webrtc_firebase.release.xcconfig"; sourceTree = "<group>"; };
+		EB40987B3A0ABE0E50CA68D6 /* Pods-webrtc_firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webrtc_firebase.debug.xcconfig"; path = "Target Support Files/Pods-webrtc_firebase/Pods-webrtc_firebase.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F194AD4A1ECE9D4BBE041F76 /* Pods-webrtc_firebase-webrtc_firebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webrtc_firebase-webrtc_firebaseTests.debug.xcconfig"; path = "Target Support Files/Pods-webrtc_firebase-webrtc_firebaseTests/Pods-webrtc_firebase-webrtc_firebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAA36CCE9CDFE927615310D8 /* libPods-webrtc_firebase-webrtc_firebaseTests.a in Frameworks */,
+				1DDC9F3B669945D65199F0E3 /* libPods-webrtc_firebase-webrtc_firebaseTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,8 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE8BA89825141AC7707BB8A0 /* libPods-webrtc_firebase.a in Frameworks */,
-				31CD015F2443E4DD00851FCA /* WebRTC.framework in Frameworks */,
+				631CF23F3043E0E30C68EBC8 /* libPods-webrtc_firebase.a in Frameworks */,
+				31FF4E0624441C8500802836 /* WebRTC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AA1CA9873431232F0641CC3 /* libPods-webrtc_firebase-tvOS.a in Frameworks */,
+				562DAF72EE981DD0C0A9B6E2 /* libPods-webrtc_firebase-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4793D4EB01C92458D4D6B5B /* libPods-webrtc_firebase-tvOSTests.a in Frameworks */,
+				6CBD977B778FE64DCD3ED35F /* libPods-webrtc_firebase-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,18 +154,18 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				AD76BDF6F8CE2753602B94DC /* libPods-webrtc_firebase.a */,
-				991C202295B8E0D8498A764A /* libPods-webrtc_firebase-tvOS.a */,
-				CE30017B69E126D1E78CD1C3 /* libPods-webrtc_firebase-tvOSTests.a */,
-				C66DF6A1A481CB654B99747B /* libPods-webrtc_firebase-webrtc_firebaseTests.a */,
+				5ED9E0AA08028483426F0465 /* libPods-webrtc_firebase.a */,
+				738EA4A869C4A3CE24B1C34B /* libPods-webrtc_firebase-tvOS.a */,
+				043B0A2EC57846114126A8CD /* libPods-webrtc_firebase-tvOSTests.a */,
+				9485A11C2EE661BC3467721D /* libPods-webrtc_firebase-webrtc_firebaseTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		31CD01592443E49000851FCA /* Products */ = {
+		31FF4E0024441C6700802836 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				31CD015D2443E49000851FCA /* libRCTWebRTC.a */,
+				31FF4E0424441C6700802836 /* libRCTWebRTC.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,7 +173,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				31CD01582443E49000851FCA /* RCTWebRTC.xcodeproj */,
+				31FF4DFF24441C6700802836 /* RCTWebRTC.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -179,13 +181,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				31CD015E2443E4DD00851FCA /* WebRTC.framework */,
+				31FF4E0524441C8500802836 /* WebRTC.framework */,
+				316112E72444185100D861E6 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* webrtc_firebase */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* webrtc_firebaseTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				D4DF7E39F929AAE884FE00CC /* Pods */,
+				9116F876CC54D5894B219AEB /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -203,17 +206,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D4DF7E39F929AAE884FE00CC /* Pods */ = {
+		9116F876CC54D5894B219AEB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				72B297045466059B42EB772B /* Pods-webrtc_firebase.debug.xcconfig */,
-				DC3B364FDA7244DD6A074E01 /* Pods-webrtc_firebase.release.xcconfig */,
-				A17A54765A729A9E5C858ECA /* Pods-webrtc_firebase-tvOS.debug.xcconfig */,
-				CA2E75ACE114CEF24534393A /* Pods-webrtc_firebase-tvOS.release.xcconfig */,
-				133024EB8A7015144251DBF0 /* Pods-webrtc_firebase-tvOSTests.debug.xcconfig */,
-				A00B432D65769B21E1400CF0 /* Pods-webrtc_firebase-tvOSTests.release.xcconfig */,
-				AD05926D3F88028EDF6FC3EF /* Pods-webrtc_firebase-webrtc_firebaseTests.debug.xcconfig */,
-				48A13CEA2DD93A49BDF3E6F3 /* Pods-webrtc_firebase-webrtc_firebaseTests.release.xcconfig */,
+				EB40987B3A0ABE0E50CA68D6 /* Pods-webrtc_firebase.debug.xcconfig */,
+				DD8F63E762963C3EF4B37547 /* Pods-webrtc_firebase.release.xcconfig */,
+				BD5BE9A69690446B9367E234 /* Pods-webrtc_firebase-tvOS.debug.xcconfig */,
+				A8317F42A937AD81071D6F18 /* Pods-webrtc_firebase-tvOS.release.xcconfig */,
+				58CFB3B67CE5E172F81D001F /* Pods-webrtc_firebase-tvOSTests.debug.xcconfig */,
+				A8F300FB2CDAC4E91991044A /* Pods-webrtc_firebase-tvOSTests.release.xcconfig */,
+				F194AD4A1ECE9D4BBE041F76 /* Pods-webrtc_firebase-webrtc_firebaseTests.debug.xcconfig */,
+				8821A05BCF1E165C5AC1281D /* Pods-webrtc_firebase-webrtc_firebaseTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -225,11 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "webrtc_firebaseTests" */;
 			buildPhases = (
-				BA2FD51CBDF6674D475AC01F /* [CP] Check Pods Manifest.lock */,
+				30FE003F71776FA7AEC48FF4 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				3D86714504AA2B60CD78F0EE /* [CP] Embed Pods Frameworks */,
+				309EC1F09C0527E79324D2A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -245,13 +248,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "webrtc_firebase" */;
 			buildPhases = (
-				8D73A40B53A920FB6B95AD8F /* [CP] Check Pods Manifest.lock */,
+				481AE8D0577D39E90054F5F5 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				7089977016C1FCC99D770393 /* [CP] Embed Pods Frameworks */,
+				DBD951D377A6AA6CD8F3E587 /* [CP-User] [RNFB] Core Configuration */,
+				D1BCFAECF2CDE5029C0E1A50 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -266,7 +270,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "webrtc_firebase-tvOS" */;
 			buildPhases = (
-				4BC2BBEF78535CB71B1DD49E /* [CP] Check Pods Manifest.lock */,
+				F05261F3C3B832CA1CB886B2 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -286,7 +290,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "webrtc_firebase-tvOSTests" */;
 			buildPhases = (
-				20190FA6FF5776BB5B5A3BCE /* [CP] Check Pods Manifest.lock */,
+				2716928A4B62079221E4F7D9 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -340,8 +344,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 31CD01592443E49000851FCA /* Products */;
-					ProjectRef = 31CD01582443E49000851FCA /* RCTWebRTC.xcodeproj */;
+					ProductGroup = 31FF4E0024441C6700802836 /* Products */;
+					ProjectRef = 31FF4DFF24441C6700802836 /* RCTWebRTC.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -355,11 +359,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		31CD015D2443E49000851FCA /* libRCTWebRTC.a */ = {
+		31FF4E0424441C6700802836 /* libRCTWebRTC.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libRCTWebRTC.a;
-			remoteRef = 31CD015C2443E49000851FCA /* PBXContainerItemProxy */;
+			remoteRef = 31FF4E0324441C6700802836 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -378,6 +382,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				316112E82444185100D861E6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +418,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		20190FA6FF5776BB5B5A3BCE /* [CP] Check Pods Manifest.lock */ = {
+		2716928A4B62079221E4F7D9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -449,7 +454,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		3D86714504AA2B60CD78F0EE /* [CP] Embed Pods Frameworks */ = {
+		309EC1F09C0527E79324D2A5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -467,7 +472,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-webrtc_firebase-webrtc_firebaseTests/Pods-webrtc_firebase-webrtc_firebaseTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4BC2BBEF78535CB71B1DD49E /* [CP] Check Pods Manifest.lock */ = {
+		30FE003F71776FA7AEC48FF4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -482,32 +487,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-webrtc_firebase-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-webrtc_firebase-webrtc_firebaseTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7089977016C1FCC99D770393 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-webrtc_firebase/Pods-webrtc_firebase-frameworks.sh",
-				"${PODS_ROOT}/../../node_modules/react-native-webrtc/ios/WebRTC.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-webrtc_firebase/Pods-webrtc_firebase-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8D73A40B53A920FB6B95AD8F /* [CP] Check Pods Manifest.lock */ = {
+		481AE8D0577D39E90054F5F5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -529,7 +516,35 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BA2FD51CBDF6674D475AC01F /* [CP] Check Pods Manifest.lock */ = {
+		D1BCFAECF2CDE5029C0E1A50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-webrtc_firebase/Pods-webrtc_firebase-frameworks.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-webrtc/ios/WebRTC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-webrtc_firebase/Pods-webrtc_firebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBD951D377A6AA6CD8F3E587 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes usful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"firebase_crashlytics_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\n\n  # config.admob_delay_app_measurement_init\n  _ADMOB_DELAY_APP_MEASUREMENT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_delay_app_measurement_init\")\n  if [[ $_ADMOB_DELAY_APP_MEASUREMENT == \"true\" ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADDelayAppMeasurementInit\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"YES\")\n  fi\n\n  # config.admob_ios_app_id\n  _ADMOB_IOS_APP_ID=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_ios_app_id\")\n  if [[ $_ADMOB_IOS_APP_ID ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADApplicationIdentifier\")\n    _PLIST_ENTRY_TYPES+=(\"string\")\n    _PLIST_ENTRY_VALUES+=(\"$_ADMOB_IOS_APP_ID\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally \n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n\n";
+		};
+		F05261F3C3B832CA1CB886B2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -544,7 +559,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-webrtc_firebase-webrtc_firebaseTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-webrtc_firebase-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -656,7 +671,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD05926D3F88028EDF6FC3EF /* Pods-webrtc_firebase-webrtc_firebaseTests.debug.xcconfig */;
+			baseConfigurationReference = F194AD4A1ECE9D4BBE041F76 /* Pods-webrtc_firebase-webrtc_firebaseTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -679,7 +694,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48A13CEA2DD93A49BDF3E6F3 /* Pods-webrtc_firebase-webrtc_firebaseTests.release.xcconfig */;
+			baseConfigurationReference = 8821A05BCF1E165C5AC1281D /* Pods-webrtc_firebase-webrtc_firebaseTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -699,7 +714,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72B297045466059B42EB772B /* Pods-webrtc_firebase.debug.xcconfig */;
+			baseConfigurationReference = EB40987B3A0ABE0E50CA68D6 /* Pods-webrtc_firebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -726,7 +741,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC3B364FDA7244DD6A074E01 /* Pods-webrtc_firebase.release.xcconfig */;
+			baseConfigurationReference = DD8F63E762963C3EF4B37547 /* Pods-webrtc_firebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -747,7 +762,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A17A54765A729A9E5C858ECA /* Pods-webrtc_firebase-tvOS.debug.xcconfig */;
+			baseConfigurationReference = BD5BE9A69690446B9367E234 /* Pods-webrtc_firebase-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -775,7 +790,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA2E75ACE114CEF24534393A /* Pods-webrtc_firebase-tvOS.release.xcconfig */;
+			baseConfigurationReference = A8317F42A937AD81071D6F18 /* Pods-webrtc_firebase-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -803,7 +818,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 133024EB8A7015144251DBF0 /* Pods-webrtc_firebase-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 58CFB3B67CE5E172F81D001F /* Pods-webrtc_firebase-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -830,7 +845,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A00B432D65769B21E1400CF0 /* Pods-webrtc_firebase-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = A8F300FB2CDAC4E91991044A /* Pods-webrtc_firebase-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
