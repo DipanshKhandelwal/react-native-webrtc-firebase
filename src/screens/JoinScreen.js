@@ -65,46 +65,45 @@ export default function JoinScreen({ setScreen, screens, roomId }) {
     const roomRef = await db.collection('rooms').doc(id);
     const roomSnapshot = await roomRef.get();
 
-    if (roomSnapshot.exists) {
-      const localPC = new RTCPeerConnection(configuration);
-      localPC.addStream(localStream);
+    if (!roomSnapshot.exists) return
+    const localPC = new RTCPeerConnection(configuration);
+    localPC.addStream(localStream);
 
-      const calleeCandidatesCollection = roomRef.collection('calleeCandidates');
-      localPC.onicecandidate = e => {
-        if (!e.candidate) {
-          console.log('Got final candidate!');
-          return;
+    const calleeCandidatesCollection = roomRef.collection('calleeCandidates');
+    localPC.onicecandidate = e => {
+      if (!e.candidate) {
+        console.log('Got final candidate!');
+        return;
+      }
+      calleeCandidatesCollection.add(e.candidate.toJSON());
+    };
+
+    localPC.onaddstream = e => {
+      if (e.stream && remoteStream !== e.stream) {
+        console.log('RemotePC received the stream join', e.stream);
+        setRemoteStream(e.stream);
+      }
+    };
+
+    const offer = roomSnapshot.data().offer;
+    await localPC.setRemoteDescription(new RTCSessionDescription(offer));
+
+    const answer = await localPC.createAnswer();
+    await localPC.setLocalDescription(answer);
+
+    const roomWithAnswer = { answer };
+    await roomRef.update(roomWithAnswer);
+
+    roomRef.collection('callerCandidates').onSnapshot(snapshot => {
+      snapshot.docChanges().forEach(async change => {
+        if (change.type === 'added') {
+          let data = change.doc.data();
+          await localPC.addIceCandidate(new RTCIceCandidate(data));
         }
-        calleeCandidatesCollection.add(e.candidate.toJSON());
-      };
-
-      const offer = roomSnapshot.data().offer;
-      await localPC.setRemoteDescription(new RTCSessionDescription(offer));
-
-      const answer = await localPC.createAnswer();
-      await localPC.setLocalDescription(answer);
-
-      const roomWithAnswer = { answer };
-      await roomRef.update(roomWithAnswer);
-
-      roomRef.collection('callerCandidates').onSnapshot(snapshot => {
-        snapshot.docChanges().forEach(async change => {
-          if (change.type === 'added') {
-            let data = change.doc.data();
-            await localPC.addIceCandidate(new RTCIceCandidate(data));
-          }
-        });
       });
+    });
 
-      localPC.onaddstream = e => {
-        if (e.stream && remoteStream !== e.stream) {
-          console.log('RemotePC received the stream join', e.stream);
-          setRemoteStream(e.stream);
-        }
-      };
-
-      setCachedLocalPC(localPC);
-    }
+    setCachedLocalPC(localPC);
   };
 
   const switchCamera = () => {

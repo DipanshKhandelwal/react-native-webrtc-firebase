@@ -75,6 +75,13 @@ export default function CallScreen({ setScreen, screens, roomId }) {
       callerCandidatesCollection.add(e.candidate.toJSON());
     };
 
+    localPC.onaddstream = e => {
+      if (e.stream && remoteStream !== e.stream) {
+        console.log('RemotePC received the stream call', e.stream);
+        setRemoteStream(e.stream);
+      }
+    };
+
     const offer = await localPC.createOffer();
     await localPC.setLocalDescription(offer);
 
@@ -97,13 +104,6 @@ export default function CallScreen({ setScreen, screens, roomId }) {
         }
       });
     });
-
-    localPC.onaddstream = e => {
-      if (e.stream && remoteStream !== e.stream) {
-        console.log('RemotePC received the stream call', e.stream);
-        setRemoteStream(e.stream);
-      }
-    };
 
     setCachedLocalPC(localPC);
   };
