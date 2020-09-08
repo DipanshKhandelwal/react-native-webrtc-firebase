@@ -2,7 +2,11 @@
 
 Minimal react native web-etc example with Firebase
 
-## Steps to run
+## Demo
+
+![Demo GIf](./demo/demo.gif)
+
+## Steps to setup the project
 
 1. Clone the reposiotry `git clone https://github.com/DipanshKhandelwal/react-native-webrtc-firebase.git`
 
