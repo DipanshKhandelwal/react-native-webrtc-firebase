@@ -36,3 +36,21 @@ Minimal react native web-etc example with Firebase
     - For `ios`
         - `yarn run cocoapods`
         - `yarn run ios`
+
+## Steps to run
+
+Take a look at the demo for understanding the steps better.
+
+- Enter Room Id.
+
+- **Caller**
+
+  - Call Screen
+  - Start Call
+
+- **Callee**
+
+  - Join Screen
+  - Join Call
+
+- Stop Call
